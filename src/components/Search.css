@@ -1,0 +1,15 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 76px 36px;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.search-input {
+  width: 600px;
+}

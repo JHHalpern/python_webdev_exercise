@@ -1,0 +1,25 @@
+.nav-menu {
+  width: 100%;
+  height: 48px;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  padding: 0 32px;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 6px;
+
+  &.selected {
+    background-color: beige;
+  }
+}
+
+.link-text {
+  font-size: 20px;
+}

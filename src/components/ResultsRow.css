@@ -1,0 +1,7 @@
+.results-row:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.data-column:not(:last-child) {
+  border-right: 1px solid black;
+}
