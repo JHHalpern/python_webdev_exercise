@@ -6,14 +6,12 @@ import NavMenu from "./components/NavMenu.js";
 
 export default function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <NavMenu />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/search" element={<Search />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <NavMenu />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/search" element={<Search />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

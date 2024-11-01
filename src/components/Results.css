@@ -20,7 +20,9 @@
   border-bottom: 1px solid black;
 }
 
+.column-title {
+  font-weight: bold;
+}
 .column-title:not(:last-child) {
   border-right: 1px solid black;
-  font-weight: bold;
 }
