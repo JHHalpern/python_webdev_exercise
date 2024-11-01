@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 # import sys
 # sys.path.append('/api')
 import lab_results
